@@ -1,0 +1,88 @@
+{:organization "47degrees"
+ :organization-name "47 Degrees"
+ :logo {:href "https://www.47deg.com"
+        :src "img/nav-brand.png"}
+ :links [{:text "Blog" :href "https://www.47deg.com/blog"}
+         {:text "Talks" :href "https://www.47deg.com/presentations"}
+         {:text "Contact" :href "https://www.47deg.com/contact"}]
+ :social {:twitter "47deg"
+          :facebook "47degreesLLC"
+          :linkedin "company/47-degrees-llc"}
+ :languages #{"Scala" "Clojure" "Java" "Swift" "Kotlin" "Haskell"}
+ :included-projects #{
+                      "arrow"
+                      "bow"
+                      "bow-openapi"
+                      "compendium"
+                      "droste"
+                      "fetch"
+                      "freestyle"
+                      "github4s"
+                      "iota"
+                      "macroid"
+                      "mu-haskell"
+                      "mu-scala"
+                      "nef"
+                      "nine-cards-backend"
+                      "nine-cards-v2"
+                      "org"
+                      "sbt-microsites"
+                      "scala-exercises"
+                      "scalacheck-toolbox"
+                      "second-bridge"
+                      "skeuomorph"
+                    }
+ :archived-projects #{
+                      "LambdaTest"
+                      "case-classy"
+                      "mvessel"
+                      "sbot"
+                      "sbt-org-policies"
+                    }
+ :extra-repos [
+                   {:user "arrow-kt" :repo "arrow"}
+                   {:user "bow-swift" :repo "bow"}
+                   {:user "bow-swift" :repo "bow-openapi"}
+                   {:user "bow-swift" :repo "nef"}
+                   {:user "frees-io" :repo "freestyle"}
+                   {:user "frees-io" :repo "iota"}
+                   {:user "higherkindness" :repo "compendium"}
+                   {:user "higherkindness" :repo "droste"}
+                   {:user "higherkindness" :repo "mu-haskell"}
+                   {:user "higherkindness" :repo "mu-scala"}
+                   {:user "higherkindness" :repo "skeuomorph"}
+                   {:user "scala-exercises" :repo "scala-exercises"}
+               ]
+ :project-logos {
+                 "arrow" "img/navbar_arrow.png"
+                 "bow" "img/bow-logo.png"
+                 "bow-openapi" "img/bow-openapi-logo.png"
+                 "compendium" "https://higherkindness.github.io/compendium/img/light-navbar-brand.svg"
+                 "droste" "img/droste-logo.png"
+                 "fetch" "https://47degrees.github.io/fetch/img/favicon.png"
+                 "freestyle" "img/navbar_freestyle.png"
+                 "github4s" "https://47degrees.github.io/github4s/img/light-navbar-brand.svg"
+                 "macroid" "https://47degrees.github.io/macroid/img/navbar_brand.png"
+                 "mu-haskell" "https://higherkindness.github.io/mu-haskell/img/nav-brand-white.svg"
+                 "mu-scala" "https://higherkindness.github.io/mu-scala/img/light-sidebar-brand.svg"
+                 "nef" "img/nef-logo.png"
+                 "nine-cards-backend" "img/navbar_nine-cards.png"
+                 "nine-cards-v2" "img/navbar_nine-cards.png"
+                 "sbt-microsites" "https://47degrees.github.io/sbt-microsites/img/navbar_brand.png"
+                 "scala-exercises" "img/scala-exercises-dark.png"
+                 "scalacheck-toolbox" "https://47degrees.github.io/scalacheck-toolbox/img/navbar_brand.png"
+                 "second-bridge" "img/second_bridge-logo.png"
+                 "skeuomorph" "https://higherkindness.github.io/skeuomorph/img/light-navbar-brand.svg"
+               }
+ :token-name "GITHUB_API_KEY"
+ :analytics "UA-18433785-13"
+ :style {:primary-color "#F44336"
+         :header {:background "linear-gradient(0deg, rgba(30, 39, 53, 0.88), rgba(30, 39, 53, 0.88)), url(\"img/header-background.jpg\") no-repeat center center"
+                  :backgroundSize "cover"}
+         :font {:url "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400"
+                :base "'Open sans', sans-serif"
+                :headings "'Poppins', sans-serif"
+                :sizes {:light 300
+                        :regular 400
+                        :semi-bold 600
+                        :bold 700}}}}
